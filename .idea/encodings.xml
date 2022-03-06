@@ -3,6 +3,14 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/01-ThirdLayerApplication/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/01-ThirdLayerApplication/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-00-JDBC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-00-JDBC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-01-Start/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-01-Start/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-02-More-Mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-02-More-Mapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-03-Character/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-03-Character/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

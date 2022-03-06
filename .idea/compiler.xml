@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="02-MyBatis-00-JDBC" />
+        <module name="02-MyBatis-02-More-Mapper" />
+        <module name="02-MyBatis-01-Start" />
         <module name="01-ThirdLayerApplication" />
-        <module name="Maven_project" />
+        <module name="02-MyBatis-03-Character" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
