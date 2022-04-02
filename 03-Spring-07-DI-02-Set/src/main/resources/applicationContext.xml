@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <bean class="com.szh.entity.Car" id="car">
+       <property name="color" value="终末之弓"/>
+   </bean>
+
+    <bean class="com.szh.entity.ComplexType">
+        <property name="objects">
+            <array>
+                <value>123</value>
+                <value>张</value>
+                <value>1.2</value>
+                <value>1-1==0</value>
+            </array>
+        </property>
+
+        <property name="list">
+            <list >
+                <value>白术</value>
+                <value>影</value>
+                <value>莹</value>
+                <value>空</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>12</value>
+                <value>16</value>
+                <value>11</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="god" value="巴巴托斯-风神"/>
+                <entry key="car" value-ref="car"/>
+            </map>
+        </property>
+    </bean>
+</beans>

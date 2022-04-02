@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../Maven_pro/05-SpringMVC-03-RequestParamBind" />
     <file type="web" url="file://$PROJECT_DIR$/01-ThirdLayerApplication" />
     <file type="web" url="file://$PROJECT_DIR$/02-MyBatis-00-JDBC" />
     <file type="web" url="file://$PROJECT_DIR$/02-MyBatis-02-More-Mapper" />
+    <file type="web" url="file://$PROJECT_DIR$/03-Spring-00-ThreeLayerApplication" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-03-RequestParamBind" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-10-FileUpload" />
+    <file type="web" url="file://$PROJECT_DIR$/05-SpringMVC-11-FileDownload" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SSM-01-Wyy" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SSM-02-Poverty" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SSM-02-poverty_alleviation" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,10 +21,17 @@
         <option value="$PROJECT_DIR$/01-ThirdLayerApplication/pom.xml" />
         <option value="$PROJECT_DIR$/02-MyBatis-00-JDBC/pom.xml" />
         <option value="$PROJECT_DIR$/02-MyBatis-02-More-Mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-00-ThreeLayerApplication/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-03-RequestParamBind/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-10-FileUpload/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SpringMVC-11-FileDownload/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SSM-01-Wyy/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SSM-02-poverty_alleviation/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/03-Spring-08-JDBC-01-XML/pom.xml" />
         <option value="$PROJECT_DIR$/untitled/pom.xml" />
       </set>
     </option>

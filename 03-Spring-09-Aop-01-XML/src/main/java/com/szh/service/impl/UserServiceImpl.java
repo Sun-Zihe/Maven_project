@@ -1,0 +1,19 @@
+package com.szh.service.impl;
+
+import com.szh.service.UserService;
+
+public class UserServiceImpl implements UserService {
+
+    @Override
+    public void add() {
+        System.out.println("添加一个学生");
+    }
+
+    @Override
+    public void update() {
+        int num = 1/0;
+
+        System.out.println("修改学生信息");
+
+    }
+}

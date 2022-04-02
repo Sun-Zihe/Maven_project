@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--创建对象-->
+    <bean id="car" class="com.szh.entity.Car">
+        <constructor-arg name = "speed" type="java.lang.Float" value="180"/>
+        <constructor-arg name="color" type="java.lang.String" value="green"/>
+    </bean>
+
+    <bean id="person" class="com.szh.entity.Person">
+        <constructor-arg name="name" value="紫薯丸子" type="java.lang.String"/>
+        <constructor-arg name="age" value="12" type="java.lang.Byte" />
+        <constructor-arg name="car" ref="car" type="com.szh.entity.Car"/>
+
+    </bean>
+</beans>
