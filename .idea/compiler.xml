@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="03-Spring-09-Aop-00-Start" />
+        <module name="07-JWT-01-Start" />
         <module name="02-MyBatis-12-More-Table" />
         <module name="03-Spring-07-DI-02-Set" />
         <module name="03-Spring-08-JDBC-01" />
         <module name="03-Spring-05-Lifecycle" />
         <module name="03-Spring-08-JDBC-02-Annotation" />
         <module name="03-Spring-09-Aop-02-Annotation" />
+        <module name="02-MyBatis-13-Dynamic-SQL" />
         <module name="02-MyBatis-04-Placeholder" />
         <module name="03-Spring-07-DI-04-ThirdLayerApplication" />
         <module name="05-SpringMVC-03-RequestParamBind" />
@@ -37,6 +39,7 @@
         <module name="03-Spring-07-DI-05-Annotation" />
         <module name="02-MyBatis-06-Alias" />
         <module name="_05-SpringMVC-10-FileUpload" />
+        <module name="07-JWT-00-Session-Cookie" />
         <module name="02-MyBatis-00-JDBC" />
         <module name="02-MyBatis-01-Start" />
         <module name="03-Spring-00-ThreeLayerApplication" />

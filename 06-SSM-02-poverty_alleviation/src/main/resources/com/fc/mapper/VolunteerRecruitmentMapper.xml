@@ -462,4 +462,10 @@
       click_num = #{clickNum,jdbcType=INTEGER}
     where id = #{id,jdbcType=BIGINT}
   </update>
+    <update id="click">
+      update volunteer_recruitment
+      set click_num       = click_num + 1,
+          last_click_time = #{lastClickTime}
+      where id = #{id}
+    </update>
 </mapper>

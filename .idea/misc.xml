@@ -13,6 +13,7 @@
     <file type="web" url="file://$PROJECT_DIR$/06-SSM-01-Wyy" />
     <file type="web" url="file://$PROJECT_DIR$/06-SSM-02-Poverty" />
     <file type="web" url="file://$PROJECT_DIR$/06-SSM-02-poverty_alleviation" />
+    <file type="web" url="file://$PROJECT_DIR$/07-JWT-00-Session-Cookie" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -27,6 +28,7 @@
         <option value="$PROJECT_DIR$/05-SpringMVC-11-FileDownload/pom.xml" />
         <option value="$PROJECT_DIR$/06-SSM-01-Wyy/pom.xml" />
         <option value="$PROJECT_DIR$/06-SSM-02-poverty_alleviation/pom.xml" />
+        <option value="$PROJECT_DIR$/07-JWT-00-Session-Cookie/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

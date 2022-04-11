@@ -1,5 +1,7 @@
 package com.fc.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 
 public class VolunteerRecruitment {
@@ -21,6 +23,7 @@ public class VolunteerRecruitment {
 
     private Date recruitsTime;
 
+    @JsonFormat(pattern="yyyy-MM-dd",timezone="GMT+8")
     private Date recruitsEndTime;
 
     private String lead;
@@ -31,6 +34,7 @@ public class VolunteerRecruitment {
 
     private Date releaseDate;
 
+    @JsonFormat(pattern="yyyy/MM/dd",timezone="GMT+8")
     private Date lastClickTime;
 
     private Integer clickNum;

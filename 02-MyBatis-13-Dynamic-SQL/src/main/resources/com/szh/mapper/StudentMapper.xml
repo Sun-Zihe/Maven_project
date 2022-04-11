@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.szh.dao.StudentDao">
+<!--    用于声明一个代码片段-->
+    <sql id="field">
+        id,name,age,gender,info
+    </sql>
+
+<!--    include用于导入可复用的代码片段-->
+    <select id="findAll" resultType="com.szh.entity.Student">
+        select <include refid="field"/> from student
+    </select>
+
+    <select id="findByKeyword" resultType="com.szh.entity.Student">
+        select <include refid="field"/>
+        from student
+        where 1=1
+        <if test="name != null">
+            and name like #{name}
+        </if>
+        <if test="age!= null">
+            and age =#{age}
+        </if>
+    </select>
+
+</mapper>

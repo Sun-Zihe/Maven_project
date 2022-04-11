@@ -1,9 +1,16 @@
 package com.fc.service;
 
 import com.fc.entity.User;
+import com.fc.vo.ReturnMessageVO;
 
 import java.util.Map;
 
 public interface UserService {
-    Map<String, Object> add(User user);
+    ReturnMessageVO add(User user);
+
+    ReturnMessageVO getlist(Integer pageNo, Integer pageSize, Long id);
+
+    ReturnMessageVO update(User user);
+
+    ReturnMessageVO del(Long id);
 }
