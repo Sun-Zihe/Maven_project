@@ -1,0 +1,7 @@
+# 设置开发环境配置
+server:
+  # 设置Tomcat内嵌端口号
+  port: 8080
+  # 设置上下文根
+  servlet:
+    context-path: /dev

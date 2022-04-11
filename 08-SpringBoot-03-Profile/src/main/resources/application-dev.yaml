@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /dev
+
+#必须添加的访问路径
+
+student:
+  name: 派大星
+  age: 30

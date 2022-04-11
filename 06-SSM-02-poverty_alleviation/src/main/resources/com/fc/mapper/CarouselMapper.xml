@@ -194,4 +194,9 @@
       available = #{available,jdbcType=BIT}
     where id = #{id,jdbcType=INTEGER}
   </update>
+    <update id="changeStatus">
+      update carousel
+      set available = !available
+      where id = #{id}
+    </update>
 </mapper>

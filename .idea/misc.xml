@@ -13,6 +13,9 @@
     <file type="web" url="file://$PROJECT_DIR$/06-SSM-01-Wyy" />
     <file type="web" url="file://$PROJECT_DIR$/06-SSM-02-Poverty" />
     <file type="web" url="file://$PROJECT_DIR$/06-SSM-02-poverty_alleviation" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SSM-03-Cloud_Diary" />
+    <file type="web" url="file://$PROJECT_DIR$/07-JWT-00-Session-Cookie" />
+    <file type="web" url="file://$PROJECT_DIR$/08-SpringBoot-00-Starter" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -27,11 +30,17 @@
         <option value="$PROJECT_DIR$/05-SpringMVC-11-FileDownload/pom.xml" />
         <option value="$PROJECT_DIR$/06-SSM-01-Wyy/pom.xml" />
         <option value="$PROJECT_DIR$/06-SSM-02-poverty_alleviation/pom.xml" />
+        <option value="$PROJECT_DIR$/07-JWT-00-Session-Cookie/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SSM-03-Cloud_Diary/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-01-Starter/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-02-Config-File/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-03-Profile/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/03-Spring-08-JDBC-01-XML/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-010-Starter/pom.xml" />
         <option value="$PROJECT_DIR$/untitled/pom.xml" />
       </set>
     </option>

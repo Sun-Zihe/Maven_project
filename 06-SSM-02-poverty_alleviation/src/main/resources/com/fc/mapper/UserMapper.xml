@@ -186,7 +186,14 @@
       <include refid="Example_Where_Clause" />
     </if>
   </select>
-  <update id="updateByExampleSelective" parameterType="map">
+  <select id="selectByUserParam" resultType="java.lang.Integer">
+    select * from user where username = #{username} and password = #{password}
+  </select>
+    <select id="selectByUserName" resultType="com.fc.entity.User">
+      select * from user where name like #{name} or username like #{name}
+    </select>
+
+    <update id="updateByExampleSelective" parameterType="map">
     update user
     <set>
       <if test="record.id != null">

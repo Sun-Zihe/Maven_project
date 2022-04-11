@@ -1,0 +1,4 @@
+# 全局配置，多环境配置，来执行指定的yaml文件
+spring:
+  profiles:
+    active: dev

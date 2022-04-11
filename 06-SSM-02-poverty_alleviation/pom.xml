@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.fc</groupId>
-    <artifactId>_06-SSM-02-poverty_alleviation</artifactId>
+    <artifactId>06-SSM-02-poverty_alleviation</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>06-SSM-02-poverty_alleviation</name>
     <packaging>war</packaging>
@@ -17,6 +17,16 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>

@@ -14,7 +14,7 @@
         <result column="t_pwd" property="password"/>
     </resultMap>
 
-    <select id="findAll" resultType="com.szh.entity.Account">
+    <select id="findAll" resultType="com.szh.entity.Student">
         select t_id as id, t_name as username, t_pwd as password from t_account
     </select>
 
