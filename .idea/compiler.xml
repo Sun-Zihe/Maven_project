@@ -44,6 +44,7 @@
         <module name="08-SpringBoot-01-Starter" />
         <module name="_05-SpringMVC-10-FileUpload" />
         <module name="07-JWT-00-Session-Cookie" />
+        <module name="08-SpringBoot-04-Annotation" />
         <module name="02-MyBatis-00-JDBC" />
         <module name="02-MyBatis-01-Start" />
         <module name="03-Spring-00-ThreeLayerApplication" />
@@ -64,6 +65,7 @@
       <module name="08-SpringBoot-01-Starter" options="-parameters" />
       <module name="08-SpringBoot-02-Config-File" options="-parameters" />
       <module name="08-SpringBoot-03-Profile" options="-parameters" />
+      <module name="08-SpringBoot-04-Annotation" options="-parameters" />
     </option>
   </component>
 </project>

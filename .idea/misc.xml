@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/08-SpringBoot-01-Starter/pom.xml" />
         <option value="$PROJECT_DIR$/08-SpringBoot-02-Config-File/pom.xml" />
         <option value="$PROJECT_DIR$/08-SpringBoot-03-Profile/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-04-Annotation/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
