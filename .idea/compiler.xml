@@ -19,6 +19,7 @@
         <module name="02-MyBatis-04-Placeholder" />
         <module name="03-Spring-07-DI-04-ThirdLayerApplication" />
         <module name="05-SpringMVC-03-RequestParamBind" />
+        <module name="06-SSM-03-Cloud_Diary" />
         <module name="02-MyBatis-02-More-Mapper" />
         <module name="03-Spring-02-Bean-Name" />
         <module name="06-SSM-01-Wyy" />
@@ -31,15 +32,19 @@
         <module name="05-SpringMVC-11-FileDownload" />
         <module name="02-MyBatis-11-ORM" />
         <module name="03-Spring-06-Lazy" />
+        <module name="08-SpringBoot-02-Config-File" />
         <module name="02-MyBatis-05-Properties" />
         <module name="03-Spring-01-Start" />
+        <module name="08-SpringBoot-03-Profile" />
         <module name="03-Spring-07-DI-01-Constructor" />
         <module name="06-SSM-02-poverty_alleviation" />
         <module name="02-MyBatis-07-Log4j2" />
         <module name="03-Spring-07-DI-05-Annotation" />
         <module name="02-MyBatis-06-Alias" />
+        <module name="08-SpringBoot-01-Starter" />
         <module name="_05-SpringMVC-10-FileUpload" />
         <module name="07-JWT-00-Session-Cookie" />
+        <module name="08-SpringBoot-04-Annotation" />
         <module name="02-MyBatis-00-JDBC" />
         <module name="02-MyBatis-01-Start" />
         <module name="03-Spring-00-ThreeLayerApplication" />
@@ -51,5 +56,13 @@
       <module name="06-SSM-02-Poverty" target="1.8" />
       <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="08-SpringBoot-01-Starter" options="-parameters" />
+      <module name="08-SpringBoot-02-Config-File" options="-parameters" />
+      <module name="08-SpringBoot-03-Profile" options="-parameters" />
+      <module name="08-SpringBoot-04-Annotation" options="-parameters" />
+    </option>
   </component>
 </project>
