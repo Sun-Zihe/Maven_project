@@ -14,7 +14,7 @@ public class CarouselController {
     @Autowired
     private CarouselService carouselService;
 
-    @GetMapping("state")
+    @PostMapping("state")
     public ReturnMessageVO changeStatus(@RequestParam Integer id) {
 
         return carouselService.changeStatus(id);
@@ -38,8 +38,8 @@ public class CarouselController {
         return carouselService.update(carousel);
     }
 
-    @GetMapping("delete")
-    public ReturnMessageVO delete(Integer id){
+    @GetMapping("del")
+    public ReturnMessageVO update(Integer id){
 
         return carouselService.del(id);
     }

@@ -32,7 +32,7 @@ public class CollectionServiceImpl implements CollectionService {
         int affectedRows = collectionMapper.insertSelective(collection);
 
         if (affectedRows > 0) {
-            resultVo = new ReturnMessageVO(200, "添加收藏成功", true, collection);
+            resultVo = new ReturnMessageVO(2000, "添加收藏成功", true, collection);
         } else {
             resultVo = new ReturnMessageVO(4000, "添加收藏失败", false, null);
         }
@@ -49,7 +49,7 @@ public class CollectionServiceImpl implements CollectionService {
         if (affectedRows > 0) {
             collection = collectionMapper.selectByPrimaryKey(collection.getId());
 
-            resultVo = new ReturnMessageVO(200, "修改收藏成功", true, collection);
+            resultVo = new ReturnMessageVO(2000, "修改收藏成功", true, collection);
         } else {
             resultVo = new ReturnMessageVO(4000, "修改收藏失败", false, null);
         }
@@ -64,7 +64,7 @@ public class CollectionServiceImpl implements CollectionService {
         int affectedRows = collectionMapper.deleteByPrimaryKey(id);
 
         if (affectedRows > 0) {
-            resultVo = new ReturnMessageVO(200, "收藏删除成功", true, null);
+            resultVo = new ReturnMessageVO(2000, "收藏删除成功", true, null);
         } else {
             resultVo = new ReturnMessageVO(4000, "收藏删除失败", false, null);
         }
@@ -100,7 +100,7 @@ public class CollectionServiceImpl implements CollectionService {
 
                 dataVo = new DataVO<>(1L, collections, pageNo, pageSize);
 
-                resultVo = new ReturnMessageVO(200, "查到该条收藏!!", true, dataVo);
+                resultVo = new ReturnMessageVO(2000, "查到该条收藏!!", true, dataVo);
             }
         } else {
             //没传id就查询全部然后开始分页
@@ -119,7 +119,7 @@ public class CollectionServiceImpl implements CollectionService {
 
                 dataVo = new DataVO<>(pageInfo.getTotal(), collections, pageNo, pageSize);
 
-                resultVo = new ReturnMessageVO(200, "收藏信息查询成功", true, dataVo);
+                resultVo = new ReturnMessageVO(2000, "收藏信息查询成功", true, dataVo);
             }
         }
 

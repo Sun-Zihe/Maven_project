@@ -34,12 +34,12 @@ public class CarouselServiceImpl implements CarouselService {
         int affRow = carouselMapper.changeStatus(id);
 
         if (affRow>0){
-            vo = new ReturnMessageVO(200,"图片状态已修改成功",true,map);
+            vo = new ReturnMessageVO(2000,"图片状态已修改成功",true,map);
         }else {
 
             map.put("errMsg","图片信息可能有误,请联系管理员");
 
-            vo = new ReturnMessageVO(4000,"图片状态修改失败",true,map);
+            vo = new ReturnMessageVO(2000,"图片状态修改失败",true,map);
         }
 
         return vo;
@@ -82,7 +82,7 @@ public class CarouselServiceImpl implements CarouselService {
 
                 userDataVO = new DataVO<>(1L,List, pageNo, pageSize);
 
-                returnMessageVO = new ReturnMessageVO(200,"成功查到该轮播图！",true,userDataVO);
+                returnMessageVO = new ReturnMessageVO(2200,"成功查到该轮播图！",true,userDataVO);
             }
         }else {
             //查询全部
@@ -103,7 +103,7 @@ public class CarouselServiceImpl implements CarouselService {
 
                 userDataVO = new DataVO<>(userPageInfo.getTotal(),List,pageNo,pageSize);
 
-                returnMessageVO = new ReturnMessageVO(200,"轮播图查询成功！！",true,userDataVO);
+                returnMessageVO = new ReturnMessageVO(2200,"轮播图查询成功！！",true,userDataVO);
 
             }
 
@@ -126,7 +126,7 @@ public class CarouselServiceImpl implements CarouselService {
 
         if (affRow>0){
 
-            vo = new ReturnMessageVO(200,"图片添加成功",true,carousel);
+            vo = new ReturnMessageVO(2000,"图片添加成功",true,carousel);
         }else {
             vo = new ReturnMessageVO(4000,"图片添加失败",false,null);
         }
@@ -145,7 +145,7 @@ public class CarouselServiceImpl implements CarouselService {
             // 修改完成之后，再重新查询一次，保证返回给前端的是最新最全的数据
             carousel = carouselMapper.selectByPrimaryKey(carousel.getId());
 
-            vo = new ReturnMessageVO(200, "修改图片成功！！", true, carousel);
+            vo = new ReturnMessageVO(1000, "修改图片成功！！", true, carousel);
         } else {
             vo = new ReturnMessageVO(5000, "修改图片失败！！", false, null);
         }
@@ -162,7 +162,7 @@ public class CarouselServiceImpl implements CarouselService {
         ReturnMessageVO vo;
 
         if (affectedRows > 0) {
-            vo = new ReturnMessageVO(200, "删除图片成功！！", true, null);
+            vo = new ReturnMessageVO(1000, "删除图片成功！！", true, null);
         } else {
             vo = new ReturnMessageVO(5000, "删除图片失败！！", false, null);
         }

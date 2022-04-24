@@ -33,7 +33,11 @@ public class AlleviationServiceImpl implements AlleviationService {
         ReturnMessageVO vo;
 
         if (affectedRows > 0) {
+<<<<<<< HEAD
             vo = new ReturnMessageVO(200, "播放量加1成功！！", true, null);
+=======
+            vo = new ReturnMessageVO(1000, "播放量加1成功！！", true, null);
+>>>>>>> origin/master
         } else {
             vo = new ReturnMessageVO(5000, "播放量加1失败！！", false, null);
         }
@@ -76,7 +80,11 @@ public class AlleviationServiceImpl implements AlleviationService {
 
                 dataVO = new DataVO<>(1L, alleviations, pageNum, pageSize);
 
+<<<<<<< HEAD
                 resultVO = new ReturnMessageVO(200, "查到了该政策!", true, dataVO);
+=======
+                resultVO = new ReturnMessageVO(1000, "查到了该政策!", true, dataVO);
+>>>>>>> origin/master
             }
         } else {
             // 开启分页
@@ -96,7 +104,11 @@ public class AlleviationServiceImpl implements AlleviationService {
 
                 dataVO = new DataVO<>(pageInfo.getTotal(), alleviations, pageNum, pageSize);
 
+<<<<<<< HEAD
                 resultVO = new ReturnMessageVO(200, "扶贫政策查询成功！！！!", true, dataVO);
+=======
+                resultVO = new ReturnMessageVO(1100, "扶贫政策查询成功！！！!", true, dataVO);
+>>>>>>> origin/master
 
             }
         }
@@ -119,7 +131,11 @@ public class AlleviationServiceImpl implements AlleviationService {
         int affectedRows = alleviationMapper.insertSelective(alleviation);
 
         if (affectedRows > 0) {
+<<<<<<< HEAD
             vo = new ReturnMessageVO(200, "添加政策成功！！", true, alleviation);
+=======
+            vo = new ReturnMessageVO(1000, "添加政策成功！！", true, alleviation);
+>>>>>>> origin/master
         } else {
             vo = new ReturnMessageVO(5000, "添加政策失败！！", false, null);
         }
@@ -137,7 +153,11 @@ public class AlleviationServiceImpl implements AlleviationService {
             // 修改完成之后，再重新查询一次，保证返回给前端的是最新最全的数据
             alleviation = alleviationMapper.selectByPrimaryKey(alleviation.getId());
 
+<<<<<<< HEAD
             vo = new ReturnMessageVO(200, "修改政策成功！！", true, alleviation);
+=======
+            vo = new ReturnMessageVO(1000, "修改政策成功！！", true, alleviation);
+>>>>>>> origin/master
         } else {
             vo = new ReturnMessageVO(5000, "修改政策失败！！", false, null);
         }
@@ -152,7 +172,11 @@ public class AlleviationServiceImpl implements AlleviationService {
         ReturnMessageVO vo;
 
         if (affectedRows > 0) {
+<<<<<<< HEAD
             vo = new ReturnMessageVO(200, "删除政策成功！！", true, null);
+=======
+            vo = new ReturnMessageVO(1000, "删除政策成功！！", true, null);
+>>>>>>> origin/master
         } else {
             vo = new ReturnMessageVO(5000, "删除政策失败！！", false, null);
         }
