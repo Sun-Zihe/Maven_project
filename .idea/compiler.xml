@@ -15,6 +15,7 @@
         <module name="03-Spring-05-Lifecycle" />
         <module name="03-Spring-08-JDBC-02-Annotation" />
         <module name="03-Spring-09-Aop-02-Annotation" />
+        <module name="08-SpringBoot-06-StaticResources" />
         <module name="02-MyBatis-13-Dynamic-SQL" />
         <module name="02-MyBatis-04-Placeholder" />
         <module name="03-Spring-07-DI-04-ThirdLayerApplication" />
@@ -43,11 +44,13 @@
         <module name="02-MyBatis-06-Alias" />
         <module name="08-SpringBoot-01-Starter" />
         <module name="_05-SpringMVC-10-FileUpload" />
+        <module name="08-SpringBoot-07-JSP" />
         <module name="07-JWT-00-Session-Cookie" />
         <module name="08-SpringBoot-04-Annotation" />
         <module name="02-MyBatis-00-JDBC" />
         <module name="02-MyBatis-01-Start" />
         <module name="03-Spring-00-ThreeLayerApplication" />
+        <module name="08-SpringBoot-05-Conditional" />
         <module name="02-MyBatis-08-Binding" />
       </profile>
     </annotationProcessing>
@@ -63,6 +66,9 @@
       <module name="08-SpringBoot-02-Config-File" options="-parameters" />
       <module name="08-SpringBoot-03-Profile" options="-parameters" />
       <module name="08-SpringBoot-04-Annotation" options="-parameters" />
+      <module name="08-SpringBoot-05-Conditional" options="-parameters" />
+      <module name="08-SpringBoot-06-StaticResources" options="-parameters" />
+      <module name="08-SpringBoot-07-JSP" options="-parameters" />
     </option>
   </component>
 </project>

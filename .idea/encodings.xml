@@ -81,6 +81,9 @@
     <file url="file://$PROJECT_DIR$/08-SpringBoot-02-Config-File/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08-SpringBoot-03-Profile/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08-SpringBoot-04-Annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-05-Conditional/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-06-StaticResources/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-07-JSP/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
