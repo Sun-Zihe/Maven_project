@@ -39,6 +39,11 @@
         <option value="$PROJECT_DIR$/08-SpringBoot-05-Conditional/pom.xml" />
         <option value="$PROJECT_DIR$/08-SpringBoot-06-StaticResources/pom.xml" />
         <option value="$PROJECT_DIR$/08-SpringBoot-07-JSP/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-09-MyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-10-RESTful/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-11-Exception/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-12-Filter/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-13-Interceptor/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
